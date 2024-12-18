@@ -1,7 +1,0 @@
-package main
-
-import fmt
-
-fun main(){
-	fmt.Println("Hello World, this file is for exercises on page 113 to do with slices in go")
-}
