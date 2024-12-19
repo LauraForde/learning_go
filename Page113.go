@@ -9,13 +9,10 @@ func main() {
 	// Exercise 1
 	// Setting up slice
 	greetings := []string{"Hello", "Hola", "नमस्कार", "こんにちは", "Привіт"}
-
 	// Subslice containing first two values
 	var x []string = greetings[:2]
-
 	// Subslice containing second, third & fourth values
 	var y []string = greetings[1:4]
-
 	// Subslice containing fourth & fifth values
 	var z []string = greetings[3:]
 
@@ -24,5 +21,12 @@ func main() {
 	fmt.Println("x:", x)
 	fmt.Println("y:", y)
 	fmt.Println("z:", z)
+
+
+	// Exercise 2
+	// Runes
+	message := "Hi 👩 and 👨"
+	runes := []rune(message)
+	fmt.Println("Rune:", string(runes[4]))
 
 }
