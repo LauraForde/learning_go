@@ -13,5 +13,18 @@ func main(){
 	for i := 0; i < 100; i ++{
 		randSlice = append(randSlice, rand.Intn(100))
 	}
-	fmt.Println(randSlice)
+
+	// Exercise 2
+	for _, v := range randSlice{
+		switch{
+			case v%6 == 0:
+				fmt.Println("Six!")
+			case v%2 == 0:
+				fmt.Println("Two!")
+			case v%3 == 0:
+				fmt.Println("Three!")
+			default:
+				fmt.Println("Never mind")
+		}
+	}
 }
