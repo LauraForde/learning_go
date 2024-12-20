@@ -12,3 +12,8 @@ While learning go through the Learning Go ebook, there are three different exerc
 
 ### Chapter 4 exercises
 1. Write a *for* loop that puts 100 random numbers betwee 0 and 100 into an *int* slice
+2. Loop over the slice you created in exercsie 1. For each value in the slice, apply the following rules:
+    - If the value is divisible by 2, print "Two!"
+    - If the value is divisible by 3, print "Three!"
+    - If the value is divisible by 2 and 3, print "Six!". Don't print anything else
+    - Otherwise print "Never mind"
