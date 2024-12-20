@@ -17,3 +17,7 @@ While learning go through the Learning Go ebook, there are three different exerc
     - If the value is divisible by 3, print "Three!"
     - If the value is divisible by 2 and 3, print "Six!". Don't print anything else
     - Otherwise print "Never mind"
+3. In *main*, declare and *int* variable called *total*. Write a *for* loop that uses a variable named *i* to iterate from 0 (inclusive) to 10 (exclusive). The body of the *for* loop should be as follows:
+`total := total + i`
+`fmt.Println(total)`
+After the *for* loop, print out the value of *total*. What is printed out? What is the likely bug in this code?

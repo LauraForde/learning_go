@@ -31,7 +31,10 @@ func main(){
 	// Exercise 3
 	var total int
 	for i := 0; i < 10; i++{
+		// Creating shadow total
+		// Should be total = total + i 
 		total := total + i
 		fmt.Println(total)
 	}
+	fmt.Println(total)
 }
