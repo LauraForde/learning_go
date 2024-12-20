@@ -27,4 +27,11 @@ func main(){
 				fmt.Println("Never mind")
 		}
 	}
+
+	// Exercise 3
+	var total int
+	for i := 0; i < 10; i++{
+		total := total + i
+		fmt.Println(total)
+	}
 }
